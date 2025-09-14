@@ -8,6 +8,10 @@ import Head from 'next/head';
 import Date from '../../components/date';
 // Import utility styles from a CSS Module for component-scoped styling
 import utilStyles from '../../styles/utils.module.css';
+// Import the Link component from Next.js for client-side navigation
+import Link from 'next/link';
+// Import the Button component from the react-bootstrap library
+import Button from 'react-bootstrap/Button';
 
 // Export an async function to fetch data for a specific post at build time
 export async function getStaticProps({ params }) {
@@ -47,6 +51,9 @@ export default function Post({ postData }) {
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
+      <h2>
+        <Button className={utilStyles.button}><Link className={utilStyles.buttonLink} href="/">Back to home</Link></Button>
+      </h2>
     </Layout>
   );
 }

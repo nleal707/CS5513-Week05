@@ -6,10 +6,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "bootstrap": "^5.3.8",
     "date-fns": "^4.1.0",
     "gray-matter": "^4.0.3",
     "next": "latest",
     "react": "latest",
+    "react-bootstrap": "^2.10.10",
     "react-dom": "latest",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1"

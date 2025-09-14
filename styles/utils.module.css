@@ -12,6 +12,7 @@
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
+  text-align: center;
 }
  
 .headingLg {
@@ -49,4 +50,25 @@
  
 .lightText {
   color: #666;
+}
+
+.button {
+  background-color: #045aaa;
+  border: none;
+  padding: 20px;
+  margin: 30px 0px 0px 0px;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #033b6f;
+}
+
+.buttonLink {
+  color: white;
+}
+
+.buttonLink:hover {
+  text-decoration: none;
 }
