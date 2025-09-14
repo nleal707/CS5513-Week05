@@ -23,8 +23,8 @@ The Golden Gate Bridge, Highway and Transportation District is committed to ensu
 Bicycles, including electric bikes, are welcome aboard all Golden Gate Ferry (GGF) vessels with the understanding that customers may need to carry their bike up or down a flight of stairs to embark/disembark. Bikes are accepted on first-come, first-served basis. High-speed catamaran class vessels provide service on weekdays and a high-capacity Spaulding class vessel or a high-speed catamaran is used on weekends. Catamarans can accommodate up to 30 bikes; Spaulding vessels can accommodate up to 100 bikes.
  
 ## Ready to Ride? ##
-- [**Schedules**](https://www.goldengate.org/ferry/route-schedule/larkspur-san-francisco/?backurl=%2Fferry%2Fschedules-maps%2F)
-- [**Fares**](https://www.goldengate.org/sail--rail-10-fares/)
-- [**Rider's Guide**](https://www.goldengate.org/ferry/riding-the-ferry/tips-for-riding/)
+- [Schedules](https://www.goldengate.org/ferry/route-schedule/larkspur-san-francisco/?backurl=%2Fferry%2Fschedules-maps%2F)
+- [Fares](https://www.goldengate.org/sail--rail-10-fares/)
+- [Rider's Guide](https://www.goldengate.org/ferry/riding-the-ferry/tips-for-riding/)
  
 

@@ -16,6 +16,8 @@ body {
     sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  font-weight: 600;
+  background-color: #ececec;
 }
  
 * {
@@ -34,4 +36,5 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

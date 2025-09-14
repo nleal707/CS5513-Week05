@@ -17,8 +17,8 @@ SMART provides rail transit service that is accessible to passengers with disabi
 Bikes are welcome on board SMART trains. Each two-car SMART train has spaces for up to 24 bikes. SMART stations also have bike storage including bike racks and secured bike lockers. Bike sharing is available near some SMART stations.
  
 ## Ready to ride? ##
-- [**Schedules**](https://www.sonomamarintrain.org/schedules-fares)
-- [**Fares**](https://www.sonomamarintrain.org/fares)
-- [**Rider's Guide**](https://www.sonomamarintrain.org/riders-guide)
+- [Schedules](https://www.sonomamarintrain.org/schedules-fares)
+- [Fares](https://www.sonomamarintrain.org/fares)
+- [Rider's Guide](https://www.sonomamarintrain.org/riders-guide)
  
 
