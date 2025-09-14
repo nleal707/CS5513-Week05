@@ -15,4 +15,4 @@ date: '2025-09-14'
 - **7:10 PM** [Mitote Food Park](http://www.mitotefoodpark.com/)
 - **8:15 PM** Pedals up at 8:15pm. Pedal to the JC neighborhood before splitting off. Some go to Yogurt Farms for dessert, some back to the parking lot.
 
-![Taco Tuesday Ride](../public/images/bikeride.jpg)
+![Taco Tuesday Ride](https://raw.githubusercontent.com/nleal707/CS5513-Week04/refs/heads/master/public/images/bikeride.jpg)
