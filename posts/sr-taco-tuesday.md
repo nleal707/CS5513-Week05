@@ -3,7 +3,7 @@ title: 'Sant Rosa, CA Taco Tuesday Ride'
 date: '2025-09-14'
 ---
  
-![Taco Tuesday Ride](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/468640966_10234909064808403_1111117734119207783_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=2285d6&_nc_ohc=YfhLFpxfORQQ7kNvwHLg88W&_nc_oc=Admr8cx5vaCV2UdQrrfPBEEu69PrhSYfRI52_-1QFeX4BEWSFUmFAGFRmuev5G6HvPU&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=zR0CatjjcHr5qAVt-_FbCw&oh=00_AfYYThHOaiguAArgbEwS24mglGC9o8eOkjrhqWMSUEJ4Dg&oe=68CCF34A)
+![Taco Tuesday Ride](https://raw.githubusercontent.com/nleal707/CS5513-Week05/refs/heads/master/public/images/srtt.jpg)
 
 Santa Rosa Taco Tuesday rides every Tuesday. Rain and holidays cancel. Check the [Facebook](https://www.facebook.com/groups/santarosatacotuesday/) page for notices of ride changes, themed rides and cancellations.
  
