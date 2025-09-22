@@ -72,3 +72,15 @@
 .buttonLink:hover {
   text-decoration: none;
 }
+
+.categoryBtn {
+  background-color: #045aaa;
+  border: none;
+  padding: 5px;
+  margin: 0px 5px;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+.space {
+  margin: 10px 0px;
+}

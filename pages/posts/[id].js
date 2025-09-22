@@ -12,6 +12,10 @@ import utilStyles from '../../styles/utils.module.css';
 import Link from 'next/link';
 // Import the Button component from the react-bootstrap library
 import Button from 'react-bootstrap/Button';
+// Import the Grid component from the react-bootstrap library
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 // Export an async function to fetch data for a specific post at build time
@@ -47,10 +51,18 @@ export default function Post({ postData }) {
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-        <div className={utilStyles.lightText}>
-          <Date dateString={postData.date} />
-          
-        </div>
+        
+        <Container className={utilStyles.space}>
+          <Row className={utilStyles.lightText}>
+            <Col class="col-6">
+            <Date dateString={postData.date} />
+            </Col>
+            <Col class="col-6">
+            <Button className={utilStyles.categoryBtn}>{postData.category}</Button>
+            </Col>
+          </Row>
+        </Container>
+        
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
       <h2>
