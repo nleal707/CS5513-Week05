@@ -4,6 +4,7 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
  
 const name = 'Nick Leal';
 export const siteTitle = 'CS55.13 Simple Blog';
@@ -62,6 +63,7 @@ export default function Layout({ children, home }) {
       <main>
         {children}
         <Analytics />
+        <SpeedInsights />
       </main>
     </div>
   );
