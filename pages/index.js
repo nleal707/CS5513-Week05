@@ -4,8 +4,8 @@ import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 // Import utility styles for common styling patterns
 import utilStyles from '../styles/utils.module.css';
-// Import a function to fetch and sort blog post data from an external source
-import { getSortedPostsData } from '../lib/posts';
+// Import a function to fetch and sort blog post data from an external source. Changed from posts.js to posts-json.js.
+import { getSortedPostsData } from '../lib/posts-json';
 // Import the Link component from Next.js for client-side navigation
 import Link from 'next/link';
 // Import a custom Date component to format and display dates

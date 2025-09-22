@@ -1,7 +1,7 @@
 // Import the Layout component for a consistent page structure
 import Layout from '../../components/layout';
-// Import functions to get all post IDs and the data for a specific post
-import { getAllPostIds, getPostData } from '../../lib/posts';
+// Import functions to get all post IDs and the data for a specific post. Changed from posts.js to posts-json.js.
+import { getAllPostIds, getPostData } from '../../lib/posts-json';
 // Import the Head component from Next.js to manage the document's <head>
 import Head from 'next/head';
 // Import a custom Date component to format and display dates
