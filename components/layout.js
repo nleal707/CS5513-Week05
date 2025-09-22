@@ -3,9 +3,10 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import { Analytics } from '@vercel/analytics/next';
  
 const name = 'Nick Leal';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'CS55.13 Simple Blog';
  
 export default function Layout({ children, home }) {
   return (
@@ -58,7 +59,10 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
-      <main>{children}</main>
+      <main>
+        {children}
+        <Analytics />
+      </main>
     </div>
   );
 }
