@@ -10,6 +10,8 @@ import { getSortedPostsData } from '../lib/posts-json';
 import Link from 'next/link';
 // Import a custom Date component to format and display dates
 import Date from '../components/date';
+// Import the Image component from Next.js
+import Image from 'next/image'
  
 // Export an async function called getStaticProps for static site generation (SSG)
 export async function getStaticProps() {
@@ -37,13 +39,24 @@ export default function Home ({ allPostsData }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
+          {allPostsData.map(({ id, date, title, featured_image }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>{title}</Link>
               <br />
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
               </small>
+              <br />
+              <Image
+                src={featured_image}
+                width={400}
+                height={300}
+                alt="featured image"
+                style={{
+                  width: '100%',
+                  height: 'auto',
+                }}
+              />
             </li>
           ))}
         </ul>

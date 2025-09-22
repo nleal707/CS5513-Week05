@@ -13,6 +13,7 @@ import Link from 'next/link';
 // Import the Button component from the react-bootstrap library
 import Button from 'react-bootstrap/Button';
 
+
 // Export an async function to fetch data for a specific post at build time
 export async function getStaticProps({ params }) {
   // Fetch the data for a single post using the ID from the route parameters
@@ -48,6 +49,7 @@ export default function Post({ postData }) {
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
         <div className={utilStyles.lightText}>
           <Date dateString={postData.date} />
+          
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
